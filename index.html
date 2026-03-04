@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chanty Ackermann Software Developer Portfolio</title>
 
     <style>
             .header {
@@ -30,14 +30,32 @@
             .discord-logo {
                 width: 45px;
                 height: 45px;
-                cursor:pointer;
+                cursor:crosshair;
                 
             }
             .phone-logo {
                 width: 45px;
                 height: 45px;
-                cursor:pointer;
+                cursor:progress;
                 
+            }
+
+            .social-links {
+                display: flex;
+                justify-content: center; /* Left align */
+                gap: 20px; /* Optional spacing */
+            }
+
+            .social-links img {
+                transition: filter 0.3s ease;
+            }
+
+            .social-links img:hover {
+                filter: grayscale(100%);
+            }
+
+            .underline {
+                text-decoration: red;
             }
             
 
@@ -45,10 +63,10 @@
 </head>
 <body>
     <header class="header">
-        <h1>Chanty Ackermann</h1>
+        <h1>Chanty Ackermann Portfolio</h1>
     </header>
         <nav class ="nav">
-            <li><a href="index.html">Home</a></li>
+            <li class><a href="index.html">Home</a></li>
             <li><a href="project.html">Projects</a></li>  <!--This is the navigation menu with links to different sections of the webpage.-->
             <li><a href="cv.html">CV</a></li>
                 
@@ -56,9 +74,12 @@
          </nav>
          <main>
             <section class="home">
-                <h2>Home</h2>
+                <h2>About me</h2>
+                // picture of yourself
                 <p>
-                    This is the home section.
+                    Who am I ?
+                    WHat do I do?
+                    Why should you hire me?
                 </p>
             </section>
          </main>
@@ -67,12 +88,13 @@
             <p>
                 This is the footer section.
             </p>
-            <a href="https://github.com/Chanty-z">
+            <div class="social-links">
+                <a href="https://github.com/Chanty-z">
                 <img src=" nav images/github_logo1.webp" alt="GitHub" class="GitHub-logo"></a>
-            <img src="nav images/gmail-logo1.webp" alt="Gmail" class="gmail-logo"> 
-            <img src="nav images/Discord-logo1.png" alt="Discord" class="discord-logo">
-            <img src="nav images/Phone-logo1.png" alt="Phone" class="phone-logo">
-            
+                <img src="nav images/gmail-logo1.webp" alt="Gmail" class="gmail-logo"> 
+                <img src="nav images/Discord-logo1.png" alt="Discord" class="discord-logo">
+                <img src="nav images/Phone-logo1.png" alt="Phone" class="phone-logo">
+            </div>
          </footer>
 
                                                                         <!--This is the footer section with a link to the GitHub profile. I want to use images as links
