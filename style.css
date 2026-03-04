@@ -20,7 +20,7 @@ h1, h2, h3, p, a, li {
 
 .header {
     
-    padding: 20px;
+    padding: 25px;
     text-align: center;
     font-family: Arial, sans-serif;
     font-weight: 100
@@ -81,4 +81,16 @@ h1, h2, h3, p, a, li {
 .underline {
     text-decoration: red;
     
+}
+.selfie {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    width: 100px;  /* adjust size */
+    height: auto;
+    
+
 }
