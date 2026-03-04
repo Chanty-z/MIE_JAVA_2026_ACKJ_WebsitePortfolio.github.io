@@ -1,0 +1,54 @@
+.header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: 100
+
+}         
+.gmail-logo {   
+    width: 45px;
+    height: 45px;
+    cursor:pointer;
+                
+}
+.GitHub-logo {
+    width: 45px;
+    height: 45px;
+    cursor:pointer;
+                
+}
+.discord-logo {
+    width: 45px;
+    height: 45px;
+    cursor:crosshair;
+                
+}
+.phone-logo {
+    width: 45px;
+    height: 45px;
+    cursor:progress;
+                
+}
+
+.social-links {
+    display: flex;
+    justify-content: left; /* Left align */
+    gap: 20px; /* Optional spacing */
+
+}
+
+.social-links img {
+    transition: filter 0.3s ease;
+
+}
+
+.social-links img:hover {
+    filter: grayscale(100%);
+
+}
+
+.underline {
+    text-decoration: red;
+    
+}
