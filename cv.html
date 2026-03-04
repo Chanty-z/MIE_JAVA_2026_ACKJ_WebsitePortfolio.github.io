@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+            .header {
+                background-color: #ffffff;
+                padding: 20px;
+                text-align: center;
+                font-family: Arial, sans-serif;
+                font-weight: 100;
+            }
+            
+            
+            .gmail-logo {   
+                width: 45px;
+                height: 45px;
+                cursor:pointer;
+                
+            }
+            .GitHub-logo {
+                width: 45px;
+                height: 45px;
+                cursor:pointer;
+                
+            }
+            .discord-logo {
+                width: 45px;
+                height: 45px;
+                cursor:pointer;
+                
+            }
+            .phone-logo {
+                width: 45px;
+                height: 45px;
+                cursor:pointer;
+                
+            }
+            
+
+    </style>
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1>Chanty Ackermann</h1>
     </header>
         <nav class ="nav">
@@ -16,31 +54,29 @@
                 
             
          </nav>
-
-         <main>
-            <section id="heroo">
-
-            </section>
-
-            <section id="cvv">
+         <section id="cvv">
                 <h2>CV</h2>
                 <p>
                     This is the CV section.
                 </p>    
-            </section>  
+            </section>
 
-         </main>
-
-         <footer>
+         <footer class="footer">
             <p>
                 This is the footer section.
             </p>
-            <li><a href="https://github.com/Chanty-z">GitHub</a></li>
+            <a href="https://github.com/Chanty-z">
+                <img src=" nav images/github_logo1.webp" alt="GitHub" class="GitHub-logo"></a>
+            <img src="nav images/gmail-logo1.webp" alt="Gmail" class="gmail-logo"> 
+            <img src="nav images/Discord-logo1.png" alt="Discord" class="discord-logo">
+            <img src="nav images/Phone-logo1.png" alt="Phone" class="phone-logo">
+            
          </footer>
 
+                                                                        <!--This is the footer section with a link to the GitHub profile. I want to use images as links
+                                                                        for GitHub, Discord, Gmail and Phone number. When I click on an image, it should copy my email,
+                                                                        discord username and phone number.-->
 
 
-  
-    
+
 </body>
-</html>
