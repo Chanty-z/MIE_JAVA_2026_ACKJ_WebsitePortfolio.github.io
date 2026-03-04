@@ -1,3 +1,8 @@
+.body {
+    background-color: #000000;
+
+}
+
 .header {
     background-color: #ffffff;
     padding: 20px;
@@ -5,7 +10,11 @@
     font-family: Arial, sans-serif;
     font-weight: 100
 
-}         
+}  
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
 .gmail-logo {   
     width: 45px;
     height: 45px;
@@ -34,17 +43,19 @@
 .social-links {
     display: flex;
     justify-content: left; /* Left align */
-    gap: 20px; /* Optional spacing */
+    gap: 15px; /* Optional spacing */
+    padding: 6px 60px;
 
 }
 
 .social-links img {
-    transition: filter 0.3s ease;
+    transition: filter,transform 0.2s ease;
 
 }
 
 .social-links img:hover {
     filter: grayscale(100%);
+    transform: scale(1.2);
 
 }
 
