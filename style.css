@@ -94,3 +94,18 @@ h1, h2, h3, p, a, li {
     
 
 }
+.essay1, .essay2, .essay3 {
+    width: 500px;
+    height: auto;
+    margin: 20px;
+}
+.strat1, .strat2 {
+    width: 500px;
+    height: auto;
+    margin: 20px;
+}
+.cv {
+    width: 500px;
+    height: auto;
+    margin: 20px;
+}
