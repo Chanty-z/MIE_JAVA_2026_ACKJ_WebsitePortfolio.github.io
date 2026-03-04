@@ -63,8 +63,17 @@ h1, h2, h3, p, a, li {
     display: flex;
     justify-content: left; /* Left align */
     gap: 15px; /* Optional spacing */
-    padding: 6px 60px;
+    padding: 6px 15px;
+    position: absolute;
+    bottom: 15px;
 
+}
+@media screen and (max-width: 1500px) {
+  
+  .social-links {
+    justify-content: left; 
+    bottom: 15px; 
+  }
 }
 
 .social-links img {
@@ -108,4 +117,37 @@ h1, h2, h3, p, a, li {
     width: 500px;
     height: auto;
     margin: 20px;
+}
+.home {
+    padding-left: 750px;
+    padding-right: 15px;
+    position: absolute;
+    top: 200px;
+}
+
+@media screen and (max-width: 1500px) {
+  
+  .home {
+     
+    padding-left: 15px;
+    padding-right: 750px;
+    top: 345px;
+    
+  }
+}
+.projects {
+    padding-left: 750px;
+    padding-right: 15px;
+    position: absolute;
+    top: 200px;
+}
+@media screen and (max-width: 1500px) {
+  
+  .projects {
+     
+    padding-left: 15px;
+    padding-right: 750px;
+    top: 345px;
+    
+  }
 }
