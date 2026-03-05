@@ -34,59 +34,57 @@ h1, h2, h3, p, a, li {
     display: inline-block;
     font-size: 25px;
 }
-.gmail-logo {   
-    width: 45px;
-    height: 45px;
-    cursor:pointer;
-                
-}
-.GitHub-logo {
-    width: 45px;
-    height: 45px;
-    cursor:pointer;
-                
-}
-.discord-logo {
-    width: 45px;
-    height: 45px;
-    cursor:crosshair;
-                
-}
-.phone-logo {
-    width: 45px;
-    height: 45px;
-    cursor:progress;
-                
-}
+    .social-links {
+        display: flex;
+        justify-content: left; /* Left align */
+        gap: 15px; /* Optional spacing */
+        padding: 0px 0px;
+        
+        bottom: 0px;
+        background-color: #000000;
+        padding-bottom: 0px;
+    }
+    
+    .social-imgs img:hover {
+        filter: grayscale(100%);
+        transform: scale(1.2);
 
-.social-links {
-    display: flex;
-    justify-content: left; /* Left align */
-    gap: 15px; /* Optional spacing */
-    padding: 6px 15px;
-    position: absolute;
-    bottom: 15px;
-
-}
+    }
 @media screen and (max-width: 1500px) {
   
-  .social-links {
+  .social-imgs {
     justify-content: left; 
     bottom: 15px; 
   }
 }
-
-.social-links img {
+.social-imgs img {
     transition: filter,transform 0.2s ease;
 
 }
-
-.social-links img:hover {
-    filter: grayscale(100%);
-    transform: scale(1.2);
-
-}
-
+    .gmail-logo {   
+        width: 45px;
+        height: 45px;
+        cursor:pointer;
+                
+    }
+    .GitHub-logo {
+        width: 45px;
+        height: 45px;
+        cursor:pointer;
+                
+    }
+    .discord-logo {
+        width: 45px;
+        height: 45px;
+        cursor:crosshair;
+                
+    }
+    .phone-logo {
+        width: 45px;
+        height: 45px;
+        cursor:progress;
+                
+    }
 .underline {
     text-decoration: red;
     
@@ -120,26 +118,24 @@ h1, h2, h3, p, a, li {
 }
 .home {
     text-align-last: center;
-    padding-left: 750px;
-    padding-right: 30px;
-    position: absolute;
-    top: 175px;
+    
+    position: relative;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1000px) {
   
   .home {
-     
-    padding-left: 15px;
-    padding-right: 750px;
-    top: 345px;
-    
+    flex-direction: column;
+    text-align: center;
   }
 }
 .projects {
     padding-left: 750px;
     padding-right: 15px;
-    position: absolute;
+    position: relative;
     top: 200px;
 }
 @media screen and (max-width: 1500px) {
@@ -151,4 +147,10 @@ h1, h2, h3, p, a, li {
     top: 345px;
     
   }
+}
+.navHome {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 20px;
 }
