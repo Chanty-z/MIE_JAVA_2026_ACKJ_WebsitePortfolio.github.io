@@ -68,6 +68,7 @@ h1, h2, h3, p, a, li {
     justify-content: space-between;
     padding: 20px;
     flex-direction: row;
+    flex: 1;
 
     }
     /*@media screen and (max-width: 1000px) {
@@ -84,7 +85,12 @@ h1, h2, h3, p, a, li {
         display: flex;
         justify-content: center;
         align-content: center;
-        padding: 20px 0px;
+        padding: 20px 0px;   
+        flex-direction: column;
+        flex: 1;
+        
+    
+        
     }
     .home {
         display: flex;
@@ -184,11 +190,48 @@ h1, h2, h3, p, a, li {
 
 
 .projects {
-    padding-left: 750px;
-    padding-right: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
     position: relative;
     top: 200px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+
 }
+    .projects-wrapper {
+        overflow: auto;
+        height: 100%;
+        position: absolute;
+    }
+
+    .essay-wrapper {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+    .valorant-wrapper {
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        flex-direction: column;
+        padding-right: 800px;
+        padding-left: 20px;
+    }
+    .strat-wrapper1 {
+        display: flex;
+        justify-content: flex start;
+        align-content: center;
+        flex-direction: row;
+    }
+    .strat-wrapper2 {
+        display: flex;
+        justify-content: flex start;
+        align-content: center;
+        flex-direction: row;
+    }
+
 /*@media screen and (max-width: 1500px) {
   
   .projects {
