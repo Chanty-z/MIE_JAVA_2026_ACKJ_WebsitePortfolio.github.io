@@ -23,11 +23,10 @@ h1, h2, h3, p, a, li {
     padding: 25px;
     justify-content: center;
     align-content: center;
-    font-family: Arial, sans-serif;
-    font-weight: 100;
+    
    
 
-}  
+    }  
     .header-content {
         display: flex;
         flex-direction: column;
@@ -55,28 +54,44 @@ h1, h2, h3, p, a, li {
 .navHome {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 20px;
 
-}
+    }
+    @media screen and (max-width: 1000px) {
+  
+    .navHome {
+        flex-direction: d;
+        text-align: d;
+        }
+    }
     .nav a {
         
         text-decoration: none;
         font-size: 25px;
         display: flex;
         justify-content: center;
-        align-content: space-between;
-        flex-grow: 1;
-        margin: 20px 0px;
+        align-content: center;
+        padding: 20px 0px;
     }
     .home {
         display: flex;
         justify-content: center;
-        align-content: column;
+        align-content: center;
+        flex-direction: column;
+        padding-left: 200px;
+        
+        
     
     }
 
-    
+    .h2 {
+        display: flex;
+        justify-content: center;
+        align-content: center;  
+        text-align: center;
+
+    }
 
 
 
@@ -106,7 +121,7 @@ h1, h2, h3, p, a, li {
 .social-imgs img {
     transition: filter,transform 0.2s ease;
 
-}
+    }
     .gmail-logo {   
         width: 45px;
         height: 45px;
@@ -153,13 +168,7 @@ h1, h2, h3, p, a, li {
 }
 
 
-@media screen and (max-width: 1000px) {
-  
-  .home {
-    flex-direction: column;
-    text-align: center;
-  }
-}
+
 .projects {
     padding-left: 750px;
     padding-right: 15px;
