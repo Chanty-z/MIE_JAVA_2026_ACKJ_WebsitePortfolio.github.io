@@ -1,4 +1,8 @@
 .body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
     background-color: #000000;
     color: #ffffff;
     margin: 0;
@@ -16,6 +20,13 @@ h1, h2, h3, p, a, li {
     -webkit-background-clip: text;
 
     -webkit-text-fill-color: transparent;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    /* height: calc(100vh - 57px); */
+
 }
 
 .header {
@@ -56,15 +67,16 @@ h1, h2, h3, p, a, li {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    flex-direction: row;
 
     }
-    @media screen and (max-width: 1000px) {
+    /*@media screen and (max-width: 1000px) {
   
     .navHome {
         flex-direction: d;
         text-align: d;
         }
-    }
+    }*/
     .nav a {
         
         text-decoration: none;
@@ -93,17 +105,19 @@ h1, h2, h3, p, a, li {
 
     }
 
-
-
-.social-links {
+.footer {
     display: flex;
-    justify-content: left; /* Left align */
-    gap: 15px; /* Optional spacing */
-    padding: 0px 0px;
-        
-    bottom: 0px;
+    justify-content: flex-start;
+    align-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 4px;
     background-color: #000000;
-    padding-bottom: 0px;
+    margin: 0px 0px;
+    flex-basis: auto;
+    flex-shrink: 0;
+    
 }
     
 .social-imgs img:hover {
@@ -111,13 +125,13 @@ h1, h2, h3, p, a, li {
     transform: scale(1.2);
 
 }
-@media screen and (max-width: 1500px) {
+/*@media screen and (max-width: 1500px) {
   
   .social-imgs {
     justify-content: left; 
     bottom: 15px; 
   }
-}
+}*/
 .social-imgs img {
     transition: filter,transform 0.2s ease;
 
@@ -175,7 +189,7 @@ h1, h2, h3, p, a, li {
     position: relative;
     top: 200px;
 }
-@media screen and (max-width: 1500px) {
+/*@media screen and (max-width: 1500px) {
   
   .projects {
      
@@ -184,5 +198,5 @@ h1, h2, h3, p, a, li {
     top: 345px;
     
   }
-}
+}*/
 
