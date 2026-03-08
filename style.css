@@ -11,7 +11,7 @@
     background: linear-gradient(to bottom left, #333333, #000000);
     
 }
-h1, h2, h3, p, a, li {
+h1, h2, h3, p, a, li {                                                     /* Text gradient for headings, paragraphs, links, list items */
     
 
     background: linear-gradient(to bottom left, white, #cccccc);
@@ -21,15 +21,15 @@ h1, h2, h3, p, a, li {
 
     -webkit-text-fill-color: transparent;
 }
-.main {
+.main {                                                                     /* Main layout */
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    /* height: calc(100vh - 57px); */
+    
 
 }
 
-.header {
+.header {                                                                   /* Header Styles */
     display: flex;
     padding: 25px;
     justify-content: center;
@@ -55,7 +55,7 @@ h1, h2, h3, p, a, li {
         display: flex;
     
     }
-.navHome {
+.navHome {                                                               /* Navigation menu */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -64,13 +64,7 @@ h1, h2, h3, p, a, li {
     flex: 1;
 
     }
-    /*@media screen and (max-width: 1000px) {
-  
-    .navHome {
-        flex-direction: d;
-        text-align: d;
-        }
-    }*/
+    
     .nav a {
         
         text-decoration: none;
@@ -84,7 +78,7 @@ h1, h2, h3, p, a, li {
         text-align: top left;
        
     }
-    .home {
+    .home {                                                            /*About me section */
         display: flex;
         justify-content: center;
         align-content: center;
@@ -94,7 +88,7 @@ h1, h2, h3, p, a, li {
     }
     .cvv {
         display: flex;
-        justify-content: center;
+        justify-content: center;                                      /*CV section */
         align-content: center;
         flex-direction: row;
         padding-left: 0px;
@@ -109,7 +103,7 @@ h1, h2, h3, p, a, li {
 
     }
 
-.footer {
+.footer {                                                             /* Footer and social icons*/
     display: flex;
     justify-content: flex-start;
     align-content: flex-end;
@@ -163,7 +157,7 @@ h1, h2, h3, p, a, li {
     
 }
 
-.essay1, .essay2, .essay3 {
+.essay1, .essay2, .essay3 {                                          /* Projects section */
     width: 500px;
     height: auto;
     margin: 20px;
@@ -196,7 +190,7 @@ h1, h2, h3, p, a, li {
         
     }
 
-    .essay-wrapper {
+    .essay-wrapper {                                                 /* Essay section */
         display: flex;
         justify-content: center;
         align-content: center;
@@ -211,7 +205,7 @@ h1, h2, h3, p, a, li {
         .esimg {
             text-align: center;
         }
-    .valplans {
+    .valplans {                                                     /* Valorant strategies section */
         display: flex;
         justify-content: flex-start;
         align-content: center;
@@ -274,14 +268,5 @@ h1, h2, h3, p, a, li {
                 }
 
 
-/*@media screen and (max-width: 1500px) {
-  
-  .projects {
-     
-    padding-left: 15px;
-    padding-right: 750px;
-    top: 345px;
-    
-  }
-}*/
+
 

@@ -4,7 +4,7 @@
     // Add a click event listener
     discordLogo.addEventListener('click', () => {
         // Text to copy
-        const discordUsername = "_Chanty_";
+        const discordUsername = "_Chanty_";                           //Copies text to clipboard by clicking on footer icons
 
         // Copy to clipboard
         navigator.clipboard.writeText(discordUsername)
@@ -16,15 +16,10 @@
             });
     });
 
-    // Select the Gmail logo image
+    
     const gmailLogo = document.querySelector('.gmail-logo');
-
-    // Add a click event listener
     gmailLogo.addEventListener('click', () => {
-        // Text to copy
         const gmailAddress = "jd2004ack@gmail.com";
-
-        // Copy to clipboard
         navigator.clipboard.writeText(gmailAddress)
             .then(() => {
                 alert(`Copied "${gmailAddress}" to clipboard!`);
@@ -34,15 +29,10 @@
             });
     });
 
-    // Select the Phone logo image
+    
     const phoneLogo = document.querySelector('.phone-logo');
-
-    // Add a click event listener
     phoneLogo.addEventListener('click', () => {
-        // Text to copy
         const phone_number = "+27 081 539 9878";
-
-        // Copy to clipboard
         navigator.clipboard.writeText(phone_number)
             .then(() => {
                 alert(`Copied "${phone_number}" to clipboard!`);
