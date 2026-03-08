@@ -101,8 +101,14 @@ h1, h2, h3, p, a, li {
         flex-direction: column;
         padding-left: 200px;
         
+    }
+    .cvv {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: row;
+        padding-left: 0px;
         
-    
     }
 
     .h2 {
